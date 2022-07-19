@@ -120,6 +120,8 @@ alias suspend='systemctl suspend'
 alias shutdown='systemctl poweroff'
 alias la='exa --long -a --header'
 alias ll='exa --long --git'
+#allows piping to the clipboard
+alias copy='xclip -selection c'
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 #source ~/.oh-my-zsh/plugins/zsh-syntax-highlighting
